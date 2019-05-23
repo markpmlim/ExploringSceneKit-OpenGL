@@ -44,6 +44,7 @@ The OpenGL shaders used are the copyrights of the various authors or publishers.
 
 
 SceneKit's environment can be useful when it comes to testing OpenGL (or Metal) shaders. 
+
 1) Explicit and implicit animations are supported.
 
 2) There is a free camera which allows the programmer to interact manually with SCNNodes.
@@ -63,12 +64,17 @@ Zooming in/out is relatively easy. The camera is moved around to view the scene 
 
 
 Requirements:
+
     XCode 8.x or later for compilation.
+
     macOS 10.12 or later.
 
-The source code is written in Swift 3.x.
+
+The source code of the application is written in Swift 3.x.
+
 
 It is possible to back port to older versions of Swift and earlier versions of macOS. You must check if the SceneKit framework  calls are supported. There should be little problems with the OpenGL calls. Tessellation requires OpenGL 4.x 
+
 
 
 Weblinks:
