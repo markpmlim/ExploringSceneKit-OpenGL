@@ -25,7 +25,7 @@ Instancing: Renders 100 coloured quads with the OpenGL call glDrawArraysInstance
 ![screenshot](Images/Instancing.png)
 
 
-Pulsate: Display a torus oscillating between its normal and expanded shape.
+Pulsate: Display a torus contracting and expanding between its normal and expanded shape.
 
 ![screenshot](Images/Pulsate.png)
 
@@ -48,6 +48,7 @@ SceneKit's environment can be useful when it comes to testing OpenGL (or Metal) 
 
 2) There is a free camera which allows the programmer to interact manually with SCNNodes.
 Zooming in/out is relatively easy. The camera is moved around to view the scene by just simply dragging the mouse on the Macintosh.
+
 3) Multiple lights and cameras can be added to the scene. 
 
 4) The same window can support 2 or more instances of SCNView. 
@@ -65,6 +66,8 @@ Zooming in/out is relatively easy. The camera is moved around to view the scene 
 
 Weblinks:
 
+
 The link below discusses the pros and cons of using SCNProgram instantiated with OpenGL shaders.
+ 
  
 https://blog.wadetregaskis.com/scenekit-shaders/
