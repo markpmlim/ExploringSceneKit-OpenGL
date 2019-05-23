@@ -1,0 +1,25 @@
+#version 410 core
+// This shader was published in the book Graphics Shaders - Theory and Practice
+// by Mike Bailey & Steve Cunningham
+// The number of vertices in the patch is set by the application using
+// the OpenGL call "glPatchParameteri"
+layout( vertices = 16 ) out;
+uniform int uOuter02, uOuter13, uInner0, uInner1;
+
+void main( )
+{
+	gl_out[ gl_InvocationID ].gl_Position = gl_in[ gl_InvocationID ].gl_Position;
+
+	// These statements are commented out - should work but SceneKit may not accept them.
+//	if (gl_InvocationID == 0)
+//	{
+		// set the required tessellation levels for ...
+		// ... the perimeter of the input primitive
+		gl_TessLevelOuter[0] = gl_TessLevelOuter[2] = uOuter02;
+		gl_TessLevelOuter[1] = gl_TessLevelOuter[3] = uOuter13;
+
+		// ... and the interior of the input primitive
+		gl_TessLevelInner[0]  = uInner0;
+		gl_TessLevelInner[1]  = uInner1;
+//	}
+}

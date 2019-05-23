@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1779F722940DAB0032EA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1779F622940DAB0032EA73 /* Assets.xcassets */; };
+		EE1779FA22940DAB0032EA73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1779F822940DAB0032EA73 /* Main.storyboard */; };
+		EE177A0222940FB60032EA73 /* instancing.fs in Resources */ = {isa = PBXBuildFile; fileRef = EE177A0022940FB50032EA73 /* instancing.fs */; };
+		EE177A0322940FB60032EA73 /* instancing.vs in Resources */ = {isa = PBXBuildFile; fileRef = EE177A0122940FB60032EA73 /* instancing.vs */; };
+		EE177A0722940FCE0032EA73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE177A0422940FCE0032EA73 /* AppDelegate.swift */; };
+		EE177A0822940FCE0032EA73 /* OGLSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE177A0522940FCE0032EA73 /* OGLSceneView.swift */; };
+		EE177A0922940FCE0032EA73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE177A0622940FCE0032EA73 /* ViewController.swift */; };
+		EE177A2F229426090032EA73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE177A2E229426090032EA73 /* AppDelegate.swift */; };
+		EE177A31229426090032EA73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE177A30229426090032EA73 /* ViewController.swift */; };
+		EE177A33229426090032EA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE177A32229426090032EA73 /* Assets.xcassets */; };
+		EE177A36229426090032EA73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE177A34229426090032EA73 /* Main.storyboard */; };
+		EE177A3D229426770032EA73 /* checkertile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE177A3B229426770032EA73 /* checkertile.jpg */; };
+		EE177A3E229426770032EA73 /* OGLSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE177A3C229426770032EA73 /* OGLSceneView.swift */; };
+		EE177A43229427280032EA73 /* pulsate.fs in Resources */ = {isa = PBXBuildFile; fileRef = EE177A40229427280032EA73 /* pulsate.fs */; };
+		EE177A44229427280032EA73 /* pulsate.gs in Resources */ = {isa = PBXBuildFile; fileRef = EE177A41229427280032EA73 /* pulsate.gs */; };
+		EE177A45229427280032EA73 /* pulsate.vs in Resources */ = {isa = PBXBuildFile; fileRef = EE177A42229427280032EA73 /* pulsate.vs */; };
+		EE61607F2294A45900763093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61607E2294A45900763093 /* AppDelegate.swift */; };
+		EE6160812294A45900763093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6160802294A45900763093 /* ViewController.swift */; };
+		EE6160832294A45900763093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6160822294A45900763093 /* Assets.xcassets */; };
+		EE6160862294A45900763093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6160842294A45900763093 /* Main.storyboard */; };
+		EE61608C2294A4A200763093 /* OGLSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61608B2294A4A200763093 /* OGLSceneView.swift */; };
+		EE6160932294A4B600763093 /* beziersurface.fs in Resources */ = {isa = PBXBuildFile; fileRef = EE61608E2294A4B600763093 /* beziersurface.fs */; };
+		EE6160942294A4B600763093 /* beziersurface.gs in Resources */ = {isa = PBXBuildFile; fileRef = EE61608F2294A4B600763093 /* beziersurface.gs */; };
+		EE6160952294A4B600763093 /* beziersurface.tcs in Resources */ = {isa = PBXBuildFile; fileRef = EE6160902294A4B600763093 /* beziersurface.tcs */; };
+		EE6160962294A4B600763093 /* beziersurface.tes in Resources */ = {isa = PBXBuildFile; fileRef = EE6160912294A4B600763093 /* beziersurface.tes */; };
+		EE6160972294A4B600763093 /* beziersurface.vs in Resources */ = {isa = PBXBuildFile; fileRef = EE6160922294A4B600763093 /* beziersurface.vs */; };
+		EE61609F2294C76D00763093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61609E2294C76D00763093 /* AppDelegate.swift */; };
+		EE6160A12294C76D00763093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6160A02294C76D00763093 /* ViewController.swift */; };
+		EE6160A32294C76D00763093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6160A22294C76D00763093 /* Assets.xcassets */; };
+		EE6160A62294C76D00763093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6160A42294C76D00763093 /* Main.storyboard */; };
+		EE6160AF2294C7D900763093 /* wireframe.fs in Resources */ = {isa = PBXBuildFile; fileRef = EE6160AC2294C7D900763093 /* wireframe.fs */; };
+		EE6160B02294C7D900763093 /* wireframe.gs in Resources */ = {isa = PBXBuildFile; fileRef = EE6160AD2294C7D900763093 /* wireframe.gs */; };
+		EE6160B12294C7D900763093 /* wireframe.vs in Resources */ = {isa = PBXBuildFile; fileRef = EE6160AE2294C7D900763093 /* wireframe.vs */; };
+		EE6160B32294C7E200763093 /* OGLSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6160B22294C7E200763093 /* OGLSceneView.swift */; };
+		EE6160B52294C9AF00763093 /* teapotLowRes.dae in Resources */ = {isa = PBXBuildFile; fileRef = EE6160B42294C9AF00763093 /* teapotLowRes.dae */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE1779F022940DAB0032EA73 /* Instancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instancing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1779F622940DAB0032EA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE1779F922940DAB0032EA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE1779FB22940DAB0032EA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE177A0022940FB50032EA73 /* instancing.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = instancing.fs; sourceTree = "<group>"; };
+		EE177A0122940FB60032EA73 /* instancing.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = instancing.vs; sourceTree = "<group>"; };
+		EE177A0422940FCE0032EA73 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE177A0522940FCE0032EA73 /* OGLSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGLSceneView.swift; sourceTree = "<group>"; };
+		EE177A0622940FCE0032EA73 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE177A2C229426090032EA73 /* Pulsate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulsate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE177A2E229426090032EA73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE177A30229426090032EA73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE177A32229426090032EA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE177A35229426090032EA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE177A37229426090032EA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE177A3B229426770032EA73 /* checkertile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checkertile.jpg; sourceTree = "<group>"; };
+		EE177A3C229426770032EA73 /* OGLSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGLSceneView.swift; sourceTree = "<group>"; };
+		EE177A40229427280032EA73 /* pulsate.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = pulsate.fs; sourceTree = "<group>"; };
+		EE177A41229427280032EA73 /* pulsate.gs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = pulsate.gs; sourceTree = "<group>"; };
+		EE177A42229427280032EA73 /* pulsate.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = pulsate.vs; sourceTree = "<group>"; };
+		EE61607C2294A45800763093 /* BezierSurface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierSurface.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE61607E2294A45900763093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE6160802294A45900763093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE6160822294A45900763093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6160852294A45900763093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE6160872294A45900763093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE61608B2294A4A200763093 /* OGLSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGLSceneView.swift; sourceTree = "<group>"; };
+		EE61608E2294A4B600763093 /* beziersurface.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = beziersurface.fs; sourceTree = "<group>"; };
+		EE61608F2294A4B600763093 /* beziersurface.gs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = beziersurface.gs; sourceTree = "<group>"; };
+		EE6160902294A4B600763093 /* beziersurface.tcs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = beziersurface.tcs; sourceTree = "<group>"; };
+		EE6160912294A4B600763093 /* beziersurface.tes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = beziersurface.tes; sourceTree = "<group>"; };
+		EE6160922294A4B600763093 /* beziersurface.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = beziersurface.vs; sourceTree = "<group>"; };
+		EE61609C2294C76D00763093 /* BetterWireFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterWireFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE61609E2294C76D00763093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE6160A02294C76D00763093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE6160A22294C76D00763093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6160A52294C76D00763093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE6160A72294C76D00763093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6160AC2294C7D900763093 /* wireframe.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wireframe.fs; sourceTree = "<group>"; };
+		EE6160AD2294C7D900763093 /* wireframe.gs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wireframe.gs; sourceTree = "<group>"; };
+		EE6160AE2294C7D900763093 /* wireframe.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wireframe.vs; sourceTree = "<group>"; };
+		EE6160B22294C7E200763093 /* OGLSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGLSceneView.swift; sourceTree = "<group>"; };
+		EE6160B42294C9AF00763093 /* teapotLowRes.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = teapotLowRes.dae; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE1779ED22940DAB0032EA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE177A29229426090032EA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6160792294A45800763093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6160992294C76D00763093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1779D122940D4E0032EA73 = {
+			isa = PBXGroup;
+			children = (
+				EE1779F122940DAB0032EA73 /* Instancing */,
+				EE177A2D229426090032EA73 /* Pulsate */,
+				EE61609D2294C76D00763093 /* BetterWireFrame */,
+				EE61607D2294A45900763093 /* BezierSurface */,
+				EE1779DB22940D4E0032EA73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1779DB22940D4E0032EA73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1779F022940DAB0032EA73 /* Instancing.app */,
+				EE177A2C229426090032EA73 /* Pulsate.app */,
+				EE61607C2294A45800763093 /* BezierSurface.app */,
+				EE61609C2294C76D00763093 /* BetterWireFrame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1779F122940DAB0032EA73 /* Instancing */ = {
+			isa = PBXGroup;
+			children = (
+				EE177A0422940FCE0032EA73 /* AppDelegate.swift */,
+				EE177A0522940FCE0032EA73 /* OGLSceneView.swift */,
+				EE177A0622940FCE0032EA73 /* ViewController.swift */,
+				EE1779FF22940FA90032EA73 /* Shaders */,
+				EE1779F622940DAB0032EA73 /* Assets.xcassets */,
+				EE1779F822940DAB0032EA73 /* Main.storyboard */,
+				EE1779FB22940DAB0032EA73 /* Info.plist */,
+			);
+			path = Instancing;
+			sourceTree = "<group>";
+		};
+		EE1779FF22940FA90032EA73 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EE177A0122940FB60032EA73 /* instancing.vs */,
+				EE177A0022940FB50032EA73 /* instancing.fs */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		EE177A2D229426090032EA73 /* Pulsate */ = {
+			isa = PBXGroup;
+			children = (
+				EE177A3F2294267D0032EA73 /* Shaders */,
+				EE177A3B229426770032EA73 /* checkertile.jpg */,
+				EE177A2E229426090032EA73 /* AppDelegate.swift */,
+				EE177A3C229426770032EA73 /* OGLSceneView.swift */,
+				EE177A30229426090032EA73 /* ViewController.swift */,
+				EE177A32229426090032EA73 /* Assets.xcassets */,
+				EE177A34229426090032EA73 /* Main.storyboard */,
+				EE177A37229426090032EA73 /* Info.plist */,
+			);
+			path = Pulsate;
+			sourceTree = "<group>";
+		};
+		EE177A3F2294267D0032EA73 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EE177A42229427280032EA73 /* pulsate.vs */,
+				EE177A41229427280032EA73 /* pulsate.gs */,
+				EE177A40229427280032EA73 /* pulsate.fs */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		EE61607D2294A45900763093 /* BezierSurface */ = {
+			isa = PBXGroup;
+			children = (
+				EE61608D2294A4AA00763093 /* Shaders */,
+				EE61607E2294A45900763093 /* AppDelegate.swift */,
+				EE61608B2294A4A200763093 /* OGLSceneView.swift */,
+				EE6160802294A45900763093 /* ViewController.swift */,
+				EE6160822294A45900763093 /* Assets.xcassets */,
+				EE6160842294A45900763093 /* Main.storyboard */,
+				EE6160872294A45900763093 /* Info.plist */,
+			);
+			path = BezierSurface;
+			sourceTree = "<group>";
+		};
+		EE61608D2294A4AA00763093 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EE6160922294A4B600763093 /* beziersurface.vs */,
+				EE6160902294A4B600763093 /* beziersurface.tcs */,
+				EE6160912294A4B600763093 /* beziersurface.tes */,
+				EE61608F2294A4B600763093 /* beziersurface.gs */,
+				EE61608E2294A4B600763093 /* beziersurface.fs */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		EE61609D2294C76D00763093 /* BetterWireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				EE6160B42294C9AF00763093 /* teapotLowRes.dae */,
+				EE6160AB2294C7CD00763093 /* Shaders */,
+				EE61609E2294C76D00763093 /* AppDelegate.swift */,
+				EE6160B22294C7E200763093 /* OGLSceneView.swift */,
+				EE6160A02294C76D00763093 /* ViewController.swift */,
+				EE6160A22294C76D00763093 /* Assets.xcassets */,
+				EE6160A42294C76D00763093 /* Main.storyboard */,
+				EE6160A72294C76D00763093 /* Info.plist */,
+			);
+			path = BetterWireFrame;
+			sourceTree = "<group>";
+		};
+		EE6160AB2294C7CD00763093 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EE6160AE2294C7D900763093 /* wireframe.vs */,
+				EE6160AD2294C7D900763093 /* wireframe.gs */,
+				EE6160AC2294C7D900763093 /* wireframe.fs */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE1779EF22940DAB0032EA73 /* Instancing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1779FC22940DAB0032EA73 /* Build configuration list for PBXNativeTarget "Instancing" */;
+			buildPhases = (
+				EE1779EC22940DAB0032EA73 /* Sources */,
+				EE1779ED22940DAB0032EA73 /* Frameworks */,
+				EE1779EE22940DAB0032EA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instancing;
+			productName = Instancing;
+			productReference = EE1779F022940DAB0032EA73 /* Instancing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE177A2B229426090032EA73 /* Pulsate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE177A38229426090032EA73 /* Build configuration list for PBXNativeTarget "Pulsate" */;
+			buildPhases = (
+				EE177A28229426090032EA73 /* Sources */,
+				EE177A29229426090032EA73 /* Frameworks */,
+				EE177A2A229426090032EA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulsate;
+			productName = Pulsate;
+			productReference = EE177A2C229426090032EA73 /* Pulsate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE61607B2294A45800763093 /* BezierSurface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE61608A2294A45900763093 /* Build configuration list for PBXNativeTarget "BezierSurface" */;
+			buildPhases = (
+				EE6160782294A45800763093 /* Sources */,
+				EE6160792294A45800763093 /* Frameworks */,
+				EE61607A2294A45800763093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BezierSurface;
+			productName = BezierSurface;
+			productReference = EE61607C2294A45800763093 /* BezierSurface.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE61609B2294C76D00763093 /* BetterWireFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6160AA2294C76D00763093 /* Build configuration list for PBXNativeTarget "BetterWireFrame" */;
+			buildPhases = (
+				EE6160982294C76D00763093 /* Sources */,
+				EE6160992294C76D00763093 /* Frameworks */,
+				EE61609A2294C76D00763093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterWireFrame;
+			productName = BetterWireFrame;
+			productReference = EE61609C2294C76D00763093 /* BetterWireFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1779D222940D4E0032EA73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "mark lim pak mun";
+				TargetAttributes = {
+					EE1779EF22940DAB0032EA73 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					EE177A2B229426090032EA73 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE61607B2294A45800763093 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE61609B2294C76D00763093 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE1779D522940D4E0032EA73 /* Build configuration list for PBXProject "ExploringSceneKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE1779D122940D4E0032EA73;
+			productRefGroup = EE1779DB22940D4E0032EA73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1779EF22940DAB0032EA73 /* Instancing */,
+				EE177A2B229426090032EA73 /* Pulsate */,
+				EE61607B2294A45800763093 /* BezierSurface */,
+				EE61609B2294C76D00763093 /* BetterWireFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE1779EE22940DAB0032EA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1779F722940DAB0032EA73 /* Assets.xcassets in Resources */,
+				EE1779FA22940DAB0032EA73 /* Main.storyboard in Resources */,
+				EE177A0322940FB60032EA73 /* instancing.vs in Resources */,
+				EE177A0222940FB60032EA73 /* instancing.fs in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE177A2A229426090032EA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE177A3D229426770032EA73 /* checkertile.jpg in Resources */,
+				EE177A45229427280032EA73 /* pulsate.vs in Resources */,
+				EE177A33229426090032EA73 /* Assets.xcassets in Resources */,
+				EE177A36229426090032EA73 /* Main.storyboard in Resources */,
+				EE177A44229427280032EA73 /* pulsate.gs in Resources */,
+				EE177A43229427280032EA73 /* pulsate.fs in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE61607A2294A45800763093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6160972294A4B600763093 /* beziersurface.vs in Resources */,
+				EE6160932294A4B600763093 /* beziersurface.fs in Resources */,
+				EE6160832294A45900763093 /* Assets.xcassets in Resources */,
+				EE6160942294A4B600763093 /* beziersurface.gs in Resources */,
+				EE6160962294A4B600763093 /* beziersurface.tes in Resources */,
+				EE6160862294A45900763093 /* Main.storyboard in Resources */,
+				EE6160952294A4B600763093 /* beziersurface.tcs in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE61609A2294C76D00763093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6160B12294C7D900763093 /* wireframe.vs in Resources */,
+				EE6160A32294C76D00763093 /* Assets.xcassets in Resources */,
+				EE6160A62294C76D00763093 /* Main.storyboard in Resources */,
+				EE6160B02294C7D900763093 /* wireframe.gs in Resources */,
+				EE6160AF2294C7D900763093 /* wireframe.fs in Resources */,
+				EE6160B52294C9AF00763093 /* teapotLowRes.dae in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1779EC22940DAB0032EA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE177A0922940FCE0032EA73 /* ViewController.swift in Sources */,
+				EE177A0822940FCE0032EA73 /* OGLSceneView.swift in Sources */,
+				EE177A0722940FCE0032EA73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE177A28229426090032EA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE177A31229426090032EA73 /* ViewController.swift in Sources */,
+				EE177A2F229426090032EA73 /* AppDelegate.swift in Sources */,
+				EE177A3E229426770032EA73 /* OGLSceneView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6160782294A45800763093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6160812294A45900763093 /* ViewController.swift in Sources */,
+				EE61607F2294A45900763093 /* AppDelegate.swift in Sources */,
+				EE61608C2294A4A200763093 /* OGLSceneView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6160982294C76D00763093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6160A12294C76D00763093 /* ViewController.swift in Sources */,
+				EE61609F2294C76D00763093 /* AppDelegate.swift in Sources */,
+				EE6160B32294C7E200763093 /* OGLSceneView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE1779F822940DAB0032EA73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1779F922940DAB0032EA73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE177A34229426090032EA73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE177A35229426090032EA73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6160842294A45900763093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6160852294A45900763093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6160A42294C76D00763093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6160A52294C76D00763093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1779E722940D4E0032EA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE1779E822940D4E0032EA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		EE1779FD22940DAB0032EA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Instancing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovation.Instancing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE1779FE22940DAB0032EA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Instancing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovation.Instancing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE177A39229426090032EA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Pulsate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovation.Pulsate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE177A3A229426090032EA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Pulsate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovation.Pulsate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE6160882294A45900763093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BezierSurface/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovation.BezierSurface;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE6160892294A45900763093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BezierSurface/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovation.BezierSurface;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE6160A82294C76D00763093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BetterWireFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovation.BetterWireFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE6160A92294C76D00763093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BetterWireFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovation.BetterWireFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1779D522940D4E0032EA73 /* Build configuration list for PBXProject "ExploringSceneKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1779E722940D4E0032EA73 /* Debug */,
+				EE1779E822940D4E0032EA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1779FC22940DAB0032EA73 /* Build configuration list for PBXNativeTarget "Instancing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1779FD22940DAB0032EA73 /* Debug */,
+				EE1779FE22940DAB0032EA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE177A38229426090032EA73 /* Build configuration list for PBXNativeTarget "Pulsate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE177A39229426090032EA73 /* Debug */,
+				EE177A3A229426090032EA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE61608A2294A45900763093 /* Build configuration list for PBXNativeTarget "BezierSurface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6160882294A45900763093 /* Debug */,
+				EE6160892294A45900763093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6160AA2294C76D00763093 /* Build configuration list for PBXNativeTarget "BetterWireFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6160A82294C76D00763093 /* Debug */,
+				EE6160A92294C76D00763093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1779D222940D4E0032EA73 /* Project object */;
+}
