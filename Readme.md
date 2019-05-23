@@ -13,7 +13,7 @@ Using OpenGL geometry shaders to perform custom rendering in SceneKit is straigh
 
 Two things to bear in mind when using OpenGL shaders for custom rendering viz:
 
-a) all OpenGL functions require a Core OpenGL (CGL) context object to be instantiated.
+a) all OpenGL functions require a Core OpenGL (CGL) context object to be instantiated and made current.
 
 b) many OpenGL functions require binding of a vertex array object and an OpenGL program object to be installed.
 
