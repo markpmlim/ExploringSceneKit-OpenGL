@@ -62,6 +62,13 @@ Zooming in/out is relatively easy. The camera is moved around to view the scene 
 8) Multiple scenes and SCNViews are supported although rendering performance may suffer.
 
 
+Requirements:
+    XCode 8.x or later for compilation.
+    macOS 10.12 or later.
+
+The source code is written in Swift 3.x.
+
+It is possible to back port to older versions of Swift and earlier versions of macOS. You must check if the SceneKit framework  calls are supported. There should be little problems with the OpenGL calls. Tessellation requires OpenGL 4.x 
 
 
 Weblinks:
