@@ -12,8 +12,10 @@ c) Use of tessellation Shaders.
 Using OpenGL geometry shaders to perform custom rendering in SceneKit is straightforward. However, SceneKit does not play nice when OpenGL tessellation shaders are used. In fact, it took a fair bit of experimentation and guesswork to get such shaders to execute properly within SceneKit's environment.
 
 Two things to bear in mind when using OpenGL shaders for custom rendering viz:
-a) all OpenGL functions require a context
-b) many OpenGL functions require binding of a vertex array object and an OpenGL program object.
+
+a) all OpenGL functions require a Core OpenGL (CGL) context object to be instantiated.
+
+b) many OpenGL functions require binding of a vertex array object and an OpenGL program object to be installed.
 
 
 This project consists of 4 demos:
