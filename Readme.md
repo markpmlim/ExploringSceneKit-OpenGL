@@ -25,7 +25,7 @@ Instancing: Renders 100 coloured quads with the OpenGL call glDrawArraysInstance
 ![screenshot](Images/Instancing.png)
 
 
-Pulsate: Display a torus contracting and expanding between its normal and expanded shape.
+Pulsate: Display a torus contracting and expanding between its normal and inflated shape.
 
 ![screenshot](Images/Pulsate.png)
 
@@ -41,6 +41,9 @@ BezierSurface: Sub-divide a patch in smaller triangles and display it using shri
 
 
 The OpenGL shaders used are the copyrights of the various authors or publishers.
+
+The model teapotLowRes.dae is from Apple's WWDC 2014 SceneKit Demo.
+
 
 
 SceneKit's environment can be useful when it comes to testing OpenGL (or Metal) shaders. 
