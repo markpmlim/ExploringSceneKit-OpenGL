@@ -85,7 +85,7 @@ Weblinks:
 https://github.com/dalebradshaw/scenekit-lighting-models
 
 
-The link below discusses the pros and cons of using SCNProgram instantiated with OpenGL shaders.
+The link below discusses the pros and cons of using SCNPrograms instantiated with OpenGL shaders.
  
  
 https://blog.wadetregaskis.com/scenekit-shaders/
