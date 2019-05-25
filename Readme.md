@@ -82,6 +82,8 @@ It is possible to back port to older versions of Swift and earlier versions of m
 
 Weblinks:
 
+https://github.com/dalebradshaw/scenekit-lighting-models
+
 
 The link below discusses the pros and cons of using SCNProgram instantiated with OpenGL shaders.
  
