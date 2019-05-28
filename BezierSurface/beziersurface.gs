@@ -9,7 +9,7 @@ uniform mat4 uProjectionMatrix;
 // These 2 uniforms must be passed by program
 uniform float uShrink;
 
-in vec3 teNormal[3];					// output by tes
+in vec3 teNormal[3];                    // output by tes
 
 out float gLightIntensity;
 
@@ -22,27 +22,27 @@ vec3 CG;
 
 void ProduceVertex( int v )
 {
-	// Compute the light intensity at the vertex first.
-	gLightIntensity	 = abs(dot(normalize(LightPos - V[v]), teNormal[v]));
+    // Compute the light intensity at the vertex first.
+    gLightIntensity  = abs(dot(normalize(LightPos - V[v]), teNormal[v]));
 
-	// The vertex is moved toward the centroid and then output to the fragment shader.
-	gl_Position = uProjectionMatrix * vec4(CG + uShrink * ( V[v] - CG ), 1.0);
-	EmitVertex( );
+    // The vertex is moved toward the centroid and then output to the fragment shader.
+    gl_Position = uProjectionMatrix * vec4(CG + uShrink * ( V[v] - CG ), 1.0);
+    EmitVertex( );
 }
 
 
 void main()
 {
-	// Make a copy of the vertices of the tessellated triangle
-	// output by the TPG for easier access.
-	V[0]  =   gl_in[0].gl_Position.xyz;
-	V[1]  =   gl_in[1].gl_Position.xyz;
-	V[2]  =   gl_in[2].gl_Position.xyz;
+    // Make a copy of the vertices of the tessellated triangle
+    // output by the TPG for easier access.
+    V[0]  =   gl_in[0].gl_Position.xyz;
+    V[1]  =   gl_in[1].gl_Position.xyz;
+    V[2]  =   gl_in[2].gl_Position.xyz;
 
-	// Compute the centroid.
-	CG = 0.33333 * ( V[0] + V[1] + V[2] );
+    // Compute the centroid.
+    CG = 0.33333 * ( V[0] + V[1] + V[2] );
 
-	ProduceVertex( 0 );
-	ProduceVertex( 1 );
-	ProduceVertex( 2 );
+    ProduceVertex( 0 );
+    ProduceVertex( 1 );
+    ProduceVertex( 2 );
 }

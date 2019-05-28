@@ -2,7 +2,7 @@
 
 in float gLightIntensity;   // output from geometry shader
 
-out vec4 fFragColor;		// defaults to color attachment 0
+out vec4 fFragColor;        // defaults to color attachment 0
 
 const vec3 COLOR = vec3(1.0f, 0.5, 0.0f);
 
