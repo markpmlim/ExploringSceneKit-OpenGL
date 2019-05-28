@@ -82,6 +82,16 @@ It is possible to back port to older versions of Swift and earlier versions of m
 
 Weblinks:
 
+
+https://learnopengl.com/Advanced-OpenGL/Instancing
+
+
+https://learnopengl.com/Advanced-OpenGL/Geometry-Shader
+
+
+http://web.engr.oregonstate.edu/~mjb/cs519/Handouts/tessellation.1pp.pdf
+
+
 https://github.com/dalebradshaw/scenekit-lighting-models
 
 
