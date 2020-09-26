@@ -121,7 +121,9 @@ class ViewController: NSViewController, SCNProgramDelegate, SCNSceneRendererDele
                     self.texture = texture
                 }
             }
-            glBindTexture(GLenum(GL_TEXTURE_2D), self.texture!.name);
+            else {
+                glBindTexture(GLenum(GL_TEXTURE_2D), self.texture!.name);
+            }
         })
 
         torus.firstMaterial!.program = program
