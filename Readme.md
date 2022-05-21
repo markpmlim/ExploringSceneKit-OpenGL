@@ -1,3 +1,5 @@
+# Exploring Scenekit with OpenGL shaders
+
 Rationale for this project:
 
 SceneKit supports custom rendering using shader programs written in the OpenGL Shading Language or Metal Shading Language. Most of the demos published instantiate an SCNProgram with a pair of OpenGL vertex+fragment shaders. There is a dearth of information on the certain topics e.g.
@@ -20,25 +22,34 @@ b) many OpenGL functions require binding of a vertex array object and an OpenGL 
 
 This project consists of 4 demos:
 
-Instancing: Renders 100 coloured quads with the OpenGL call glDrawArraysInstanced.
+**Instancing:** Renders 100 coloured quads with the OpenGL call glDrawArraysInstanced.
+<br />
+<br />
 
 ![screenshot](Images/Instancing.png)
+<br />
+<br />
 
-
-Pulsate: Display a torus contracting and expanding between its normal and inflated shape.
-
+**Pulsate:** Display a torus contracting and expanding between its normal and inflated shape.
+<br />
+<br />
 ![screenshot](Images/Pulsate.png)
+<br />
+<br />
 
-
-BetterFireFrame: Loads a teapot and display it in a custom wireframe mode.
-
+**BetterFireFrame:** Loads a teapot and display it in a custom wireframe mode.
+<br />
+<br />
 ![screenshot](Images/BetterWireFrame.png)
+<br />
+<br />
 
-
-BezierSurface: Sub-divide a patch in smaller triangles and display it using shrinked triangles.
-
+**BezierSurface:** Sub-divide a patch in smaller triangles and display it using shrinked triangles.
+<br />
+<br />
 ![screenshot](Images/BezierSurface.png)
-
+<br />
+<br />
 
 The OpenGL shaders used are the copyrights of the various authors or publishers.
 
@@ -66,7 +77,7 @@ Zooming in/out is relatively easy. The camera is moved around to view the scene 
 8) Multiple scenes and SCNViews are supported although rendering performance may suffer.
 
 
-Requirements:
+**Requirements:**
 
     XCode 8.x or later for compilation.
 
@@ -80,7 +91,7 @@ It is possible to back port to older versions of Swift and earlier versions of m
 
 
 
-Weblinks:
+**Weblinks:**
 
 
 https://learnopengl.com/Advanced-OpenGL/Instancing
